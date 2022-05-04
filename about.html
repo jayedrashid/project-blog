@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Harry Bootstrap</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <img src="/img/logo-pen.png" width="50px" alt="">
+            <a class="navbar-brand mb-0" href="#"> iblogger</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                <!-- MyMenu -->
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="about.html">Posts</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li> -->
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-primary" type="submit">Search</button>
+                </form>
+                <div class="mx-2">
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#signupModal">Sign
+                        Up</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- About -->
+    <div class="container my-4">
+        <div class="container-fluid py-5">
+            <h2>Posts</h2>
+            <!-- <h1 class="display-5 fw-bold">Custom jumbotron</h1> -->
+            <p class="col-md-12 fs-4">It is the article that iblogger article that was published during the Covid-19 period where asperiores, sint molestias, hic vero! Facilis qui consequuntur
+                recusandae, maiores fugiat iure nam commodi nesciunt? In accusamus quaerat alias reiciendis quod
+                incidunt asperiores magni saepe nihil perspiciatis adipisci vitae rerum nesciunt aspernatur doloribus
+                ullam illum tenetur similique, aliquid iusto perferendis! Voluptatum ex ea, aut voluptas dolorem
+                architecto vitae eaque corrupti, molestias, aliquid temporibus. Temporibus natus ab obcaecati in
+                voluptates asperiores magni saepe nihil perspiciatis adipisci vitae rerum nesciunt aspernatur doloribus
+                ullam illum tenetur similique, aliquid iusto perferendis! Voluptatum ex ea, aut voluptas dolorem
+                architecto vitae eaque corrupti, molestias, aliquid temporibus. Temporibus natus ab obcaecati in
+                voluptates sequi accusamus incidunt asperiores magni saepe nihil perspiciatis adipisci vitae rerum nesciunt aspernatur doloribus
+                ullam illum tenetur similique, aliquid iusto perferendis! Voluptatum ex ea, aut voluptas dolorem
+                architecto vitae eaque corrupti, molestias, aliquid temporibus. Temporibus natus ab obcaecati in
+                voluptates sequi accusamus nostrum voluptatem exercitationem omnis? Eos sed quibusdam, fugit unde optio
+                distinctio.</p>
+            <!-- <button class="btn btn-primary btn-lg" type="button">Explore</button> -->
+        </div>
+    </div>
+
+
+    <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>Copyright©2022 iblogger, developed by
+          <a class="text-primary text-decoration-none" href="https://jayedrashid.com">
+            <strong>Jayed Rashid</strong>
+          </a>
+        </p>
+    </footer>
+
+
+
+    <!-- Bootstrap JavaScript Bundle with Popper -->
+    <script src="/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+
+
+        document.addEventListener('click', function (e) {
+            if (e.target.classList.contains('gallery-item')) {
+                const src = e.target.getAttribute('src');
+                document.querySelector('.modal-img').src = src;
+                const myModal = new bootstrap.Modal(document.getElementById('gallery-modal'))
+                myModal.show();
+            }
+        })
+    </script>
+</body>
+
+</html>
