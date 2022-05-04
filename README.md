@@ -3,7 +3,7 @@ iblogger is a Bootstrap 5 webpage
 
 ## Screenshots
 
-<img src="./iblogger-bootstrap-preview">
+<img src="./iblogger-bootstrap-preview.png">
   
 ## Features
 
